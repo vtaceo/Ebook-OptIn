@@ -1,0 +1,75 @@
+body {
+    color: white;
+    background-color: rgb(0, 71, 202);
+}
+
+.main {
+    min-height: 97vh;
+}
+
+.inner-container {
+    /* background-color: teal; */
+    /* width: 80%; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.book-cover {
+    /* background-color: rgb(197, 216, 177); */
+}
+
+.book-cover img {
+    width: 80%;
+    height: auto;
+}
+
+.ebook-info {
+    /* background-color: darkseagreen; */
+}
+
+.ebook-info h1 {
+    font-weight: bold;
+}
+
+.ebook-info h2 {
+    font-weight: 200;
+}
+
+.btn {
+    background-color: aquamarine;
+    color: rgb(15, 34, 75);
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+.btn:hover {
+    background-color: rgb(93, 187, 155);
+    color: rgb(15, 34, 75);
+    font-weight: bold;
+}
+
+.modal-content {
+    color: rgb(15, 34, 75);
+}
+
+footer {
+    font-size: 12px;
+}
+
+
+
+
+/* ============================ MEDIA QUERIES ============================= */
+/* ------------------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+    .inner-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book-cover img {
+        width: 60%;
+        height: auto;
+    }
+}
