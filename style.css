@@ -76,7 +76,7 @@ footer {
 
 @media (max-width: 576px) {
     .book-cover img {
-        width: 85%;
+        width: 90%;
         height: auto;
     }
 
